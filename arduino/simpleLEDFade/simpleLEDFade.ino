@@ -53,7 +53,7 @@ void simpleColorFade(){
 }
 
 
-//Usses PWM to fade LED up.
+//Uses PWM to fade LED up.
 void fadeUp(int led){
   for(int i = 255; i >= 0; i--){
     analogWrite(led, i);

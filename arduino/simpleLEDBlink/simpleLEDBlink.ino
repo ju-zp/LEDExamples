@@ -22,9 +22,9 @@ void setup() {
 }
 
 void loop() {
-//  blink(red, 1000);
-//  blink(green, 1000);
-//  blink(blue, 1000);
+  blink(red, 1000);
+  blink(green, 1000);
+  blink(blue, 1000);
 //  moreOn(red);
 //  moreOff(red);
 }
